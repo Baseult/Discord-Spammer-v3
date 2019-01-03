@@ -27,7 +27,7 @@ User Advice: You may need to Disable your Antivirus to load the program properly
 8. Enjoy Attacking
 
 
-Don't panic if something doesn't work. This bot is still in progress and not finished yet. Be patient and wait for the next update.
+Don't panic if something doesn't work. This bot is still in development progress and not finished yet. Be patient and wait for the next update.
 
 Premium Version:
 You are currently using the Premium Version with all Premium Features. 

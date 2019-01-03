@@ -44,6 +44,9 @@ pause
 :Next2
 color a
 @echo off
+title Discord Spammer by Discord Tools
+echo Discord Spammer coded by Discord Tools.
+echo                                                                                       "
 echo Read the Instructions first!
 echo If you get an Error. Please disable your Antivirus and download the Spammer again.
 :Ask

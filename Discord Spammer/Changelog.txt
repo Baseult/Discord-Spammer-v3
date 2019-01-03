@@ -1,6 +1,9 @@
+Official Website: discord-tools.cf
+Official Channel: Discord Tools
+
 CHANGELOGS:
 
-Updated 06.09.2018
+Updated 01.01.2019
 
 Version 3
 - New GUI

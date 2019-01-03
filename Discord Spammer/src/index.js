@@ -1,4 +1,5 @@
 // Imports
+//Discord Spammer coded by Discord Tools - https://www.youtube.com/channel/UCMRwitY43FY81O1pw0_p14Q
 const dj = require("dankjson");
 const express = require("express");
 const exphbs = require("express-handlebars");
@@ -56,3 +57,4 @@ dj(["../config.json"], defaults, 4).then(c => {
     });
 
 });
+//Discord Spammer coded by Discord Tools - https://www.youtube.com/channel/UCMRwitY43FY81O1pw0_p14Q

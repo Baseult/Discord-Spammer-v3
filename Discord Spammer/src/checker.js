@@ -1,4 +1,5 @@
 ﻿// Imports
+//Discord Spammer coded by Discord Tools - https://www.youtube.com/channel/UCMRwitY43FY81O1pw0_p14Q
 const dj = require("dankjson");
 const chalk = require("chalk");
 
@@ -100,3 +101,4 @@ function check(config) {
 exports.check = check;
 exports.passedProxies = passedProxies;
 exports.passedTokens = passedTokens;
+//Discord Spammer coded by Discord Tools - https://www.youtube.com/channel/UCMRwitY43FY81O1pw0_p14Q

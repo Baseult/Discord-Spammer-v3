@@ -1,4 +1,5 @@
 // Imports
+//Discord Spammer coded by Discord Tools - https://www.youtube.com/channel/UCMRwitY43FY81O1pw0_p14Q
 const request = require("request");
 
 class Bot {
@@ -32,3 +33,4 @@ class Bot {
 
 // Exports
 module.exports = Bot;
+//Discord Spammer coded by Discord Tools - https://www.youtube.com/channel/UCMRwitY43FY81O1pw0_p14Q

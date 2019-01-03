@@ -1,3 +1,4 @@
+//Discord Spammer coded by Discord Tools - https://www.youtube.com/channel/UCMRwitY43FY81O1pw0_p14Q
 // Imports
 const chalk = require("chalk");
 
@@ -190,3 +191,5 @@ exports.modify = modify;
 exports.start = start;
 exports.stop = stop;
 exports.get = get;
+
+//Discord Spammer coded by Discord Tools - https://www.youtube.com/channel/UCMRwitY43FY81O1pw0_p14Q
