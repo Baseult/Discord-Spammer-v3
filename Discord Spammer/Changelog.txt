@@ -1,0 +1,28 @@
+CHANGELOGS:
+
+Updated 06.09.2018
+
+Version 3
+- New GUI
+- Fixed Crash
+
+Version 2.2
+- Added Application with Easier Functions
+- Adjusted GUI
+- Changed Message Timeout to 10
+- Changed Console Messages for more Details
+- Added Colour Codes
+- Added Paid Premium Version
+
+Version 2.1
+- Changed GUO
+- Changed Proxy Timeout
+- Added Tutorial Videos
+- Added Credits
+- Added Support Buttons
+
+Version 2
+- Changed GUI
+- Fixed Proxy Support
+- Fixed Error "Bot died"
+- removed "Random Characters"

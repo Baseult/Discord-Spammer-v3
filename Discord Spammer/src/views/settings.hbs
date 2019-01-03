@@ -1,0 +1,22 @@
+
+
+<form action="api/modify" method="post">
+<h4><span class="cyan">Delay in ms (1000ms = 1 seconds)</span><h4>
+<span class="cyan">lower ms = your tokens will be banned faster</span>
+    <p><span class="red">Join delay</span></p>
+    <input type="text" placeholder="500"  value="{{settings.joinDelay}}" name="joinDelay" >
+	<p><span class="red">Message delay</span></p>
+    <input type="text" placeholder="1000" value="{{settings.messageDelay}}" name="messageDelay">
+    <p><span class="red">Additional random delay</span></p>
+    <input type="text" placeholder="100" value="{{settings.delayPadding}}" name="delayPadding">
+    <br><br>
+    <input type="submit" value="Save">
+    <p><span class="green">Don't forget to click Save</span></p>
+</form>
+
+<title>Discord Spammer</title>
+	
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	

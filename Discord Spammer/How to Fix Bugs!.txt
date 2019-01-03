@@ -1,0 +1,18 @@
+Simple Tutorial on how to fix some buggs and Crashes:
+
+Proxy timed out:
+- Use other Proxies
+- Check your Internet Connection
+- Disable Your Firewall
+- Disable Your Anti-Virus
+
+Token Phone Secured:
+- Disable your Antivirus
+- Disable your Firewall
+- Check tokens
+- Check connection
+- They got probably phone secured because of bad Proxies.
+
+Programm just crashs after the Information "Press a Key to continue"
+- Check your config file. You maybe forgot (") (,) or (])
+- Disable your Antivirus and download the Spammer again

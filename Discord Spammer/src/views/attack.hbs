@@ -1,0 +1,109 @@
+﻿
+
+	
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+{{#if active}}
+
+
+    <form action="api/stop" method="post">
+        <br>
+        <input type="submit" value="Stop Attack!">
+        <p><span class="red">Attack active </span></p>
+		<p><a href="default.asp"></a><p>
+        <p>Alive:<span class="green"> {{botCount}}</span></p>
+        <h3>Bots</h3>
+        {{#each bots}}
+            {{#if this.working}}
+                <p><span class="green">Alive ✓</span></p>
+            {{else}}
+                <p><span class="red">Dead ✗</span></p>
+            {{/if}}
+        {{/each}}
+		
+    </form>
+{{else}}
+		
+
+		
+<html>
+
+  <head>
+    <title>Discord Spammer</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <script type="text/javascript">
+      function insertText(elemID, text)
+      {
+        var elem = document.getElementById(elemID);
+        elem.innerHTML += text;
+      }
+    </script>
+	
+  </head>
+ <form>
+	<html>
+	<head>	
+<!-- Javascript -->
+<script type="text/javascript">
+function showHideLayer(id){
+e = document.getElementById(id);
+if(e.style.display=="block"){
+e.style.display = "none";
+} else {
+e.style.display = "block";
+}}
+</script> 
+	</head>
+	<body>
+	<!-- Link to Show/Hide -->
+	<a href="alternativerLink" class="cyan" onclick="showHideLayer('meinLayer');return(false)">Text Colours (Show / Hide)</a>
+	<div id="meinLayer" style="display:none;">
+  <span class="red">Colour Codes (Changes the Textcolour). Replace the "Your Text here" with your Spam text!</span>
+  <br></br>
+  <span class="red">Don't click into the "Message to spam" Box before you choose a colour code (It's a bit bugged).</span>
+  <br></br>
+      <input type="button" value="Italics" onclick="insertText('txt1', '*Your Text here*');">
+	  <input type="button" value="Bold" onclick="insertText('txt1', '**Your Text here**');">
+	  <input type="button" value="Bold Italics" onclick="insertText('txt1', '***Your Text here***');">
+	  <input type="button" value="Underline" onclick="insertText('txt1', '__Your Text here__');">
+	  <input type="button" value="Underline italics" onclick="insertText('txt1', '__*Your Text here*__');">
+	  <input type="button" value="Underline bold" onclick="insertText('txt1', '__**Your Text here**__');">
+	  <input type="button" value="underline bold italics" onclick="insertText('txt1', '__***Your Text here***__');">
+	  <input type="button" value="Strikethrough" onclick="insertText('txt1', '~~Your Text here~~');">	  
+	  <input type="button" value="Blue" onclick="insertText('txt1', ''''css Your Text here'''');">
+	  <input type="button" value="Cyan" onclick="insertText('txt1', ''''yaml Your Text here'''');">
+	  <input type="button" value="Orange" onclick="insertText('txt1', ''''fix Your Text here'''');">
+	  <input type="button" value="Red" onclick="insertText('txt1', ''''diff - Your Text here'''');">
+	  </div>
+	</body>
+</html>
+	  
+    </form>
+  </body>
+</html>
+               
+    <form action="api/start" method="post">
+        <p><span class="green">Invite code</span></p>
+        <input type="text" placeholder="LBzPJK" value="{{attack.invite}}" name="invite">
+        <p><span class="green">Channel ID</span></p>
+        <input type="text" placeholder="382932518554506564" value="{{attack.id}}" name="id">
+		<p><span class="green">Message to spam</span></p> 
+	    <textarea id="txt1" cols="50" rows="3" placeholder="Text to Spam" name="message">{{attack.message}}</textarea>
+		<br><br>
+		
+		
+		<input type="submit" value="Launch Attack!">
+        <p><span class="green">Ready</span></p>
+        <p>Proxies: {{proxyCount}}</p>
+        <p>Tokens: {{tokenCount}}</p>
+    </form>
+{{/if}}
+
+
+
+
+
+
+

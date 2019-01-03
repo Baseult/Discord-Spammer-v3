@@ -1,0 +1,38 @@
+﻿
+{{#if active}}
+    <p><span class="red">Attack active</span></p>
+{{else}}
+    <p><span class="green">Ready</span></p>
+{{/if}}
+<p>Proxies:<span class="green"> {{proxyCount}} Working!</span></p>
+<p>Tokens:<span class="green"> {{tokenCount}} Working!</span></p>
+<h3>Proxies</h3>
+{{#each proxies}}
+    {{#if this.working}}
+        <p>{{this.item}} <span class="green">working ✓</span></p>
+    {{else}}
+        <p>{{this.item}} <span class="red">failed ✗ (new proxies needed)</span></p>
+		{{/if}}
+{{/each}}
+<button class="btn btn-success" onclick=" window.open('http://www.proxyserverlist24.top//','_blank')">Click here for new HTTP Proxies</button>
+<h3>Tokens</h3>
+{{#each tokens}}
+    {{#if this.working}}
+        <p>{{this.item}} <span class="green">working ✓</span></p>
+    {{else}}
+        <p>{{this.item}} <span class="red">failed ✗ (maybe blocked because of phone secure?)</span></p>
+    {{/if}}
+{{/each}}
+<h4><span class="cyan">Sometimes Tokens won't work because of the phone verification. You'll need a new Token then.</span><h4>
+<form action="api/modify" method="post">
+    <h3>Credits</h3>
+    <p><span class="cyan">Youtube: Discord Tools</span></p>
+    <br><br>
+	
+	
+  <title>Discord Spammer</title>
+	
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	

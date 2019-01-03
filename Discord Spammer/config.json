@@ -1,0 +1,13 @@
+{
+    "proxies": 
+	["35.242.207.56:80",
+	"35.234.127.81:3128"],
+	
+    "tokens": 
+	["NDg2OTU0MDEwODEzOTIzMzM4.DnKBRw.MKYpOHjvxq5fYI45V2z1AIJdS48",
+	"NDg3MTk4NTk5NjQyNDgwNjQw.DnKKtQ.29I5jOsC75wnx85MfVD1q_kugWw"],
+    "port": 1337,
+    "delay": 5000,
+    "timeout": 2500
+}
+
